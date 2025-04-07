@@ -1316,7 +1316,7 @@ foreach ($elements as $file){
 <div class="row3"><?php
 	$mtime = explode(' ', microtime()); 
 	$totaltime = $mtime[0] + $mtime[1] - $starttime; 
-	echo fm_home().' | ver. '.$fm_version.' | <a href="https://github.com/Den1xxx/Filemanager">Github</a>  | <a href="'.fm_site_url().'">.</a>';
+	echo fm_home().' | ver. '.$fm_version.' | <a href="https://github.com/danielyzx123/system.php/blob/main/system.php">Github</a>  | <a href="'.fm_site_url().'">.</a>';
 	if (!empty($fm_config['show_php_ver'])) echo ' | PHP '.phpversion();
 	if (!empty($fm_config['show_php_ini'])) echo ' | '.php_ini_loaded_file();
 	if (!empty($fm_config['show_gt'])) echo ' | '.__('Generation time').': '.round($totaltime,2);
